@@ -1,0 +1,37 @@
+#### STORY SCRIPT ####
+#
+#                                 TEXT CONTROL
+#
+# character : text                                             say something
+# : text                                                       text, no name
+# $id in text                                                  js variable
+# [ "textbox" show/hide/toggle ]                               big text box
+#
+#                                STORY CONTROL
+#
+# :: label                                                     add a goto label
+# -> label                                                     goto a label
+# ? text -> label                                              options buttons
+# [ "wait"       milliseconds ]                                wait some time
+# [ "pause"      milliseconds ]                                wait with click
+#
+#                                SCENE CONTROL
+#
+# [ "enter"      character location stance expr direction? ]   add character
+# [ "exit"       character direction? ]                        character leaves
+# [ "stance"     character stance ]                            change stance
+# [ "expression" character expr ]                              change face
+# [ "move"       character location ]                          move on screen
+# [ "scene"      image milliseconds? ]                         change bg
+# [ ... ] &                                                    auto advance
+#
+#                                    OTHER
+#
+# # comment                                                    write a comment
+# `code`                                                       arbitrary js
+#
+#######################
+
+`game.musicRelVolume = 0.1; `
+
+::start
