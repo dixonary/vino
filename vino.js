@@ -981,7 +981,7 @@ gen.Textfield = function() {
             }
             rtCount++;
         }
-        rerender();
+        tf.rerender();
 
     }
 
