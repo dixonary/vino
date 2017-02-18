@@ -24,9 +24,9 @@ data = {};
 
 engine.regex = {
     anyCommand    : /^\s*\[.*]\s*&?\s*$/,
-    label         : /^\s*::\s*([a-z0-9]+)\s*$/i,
-    goto          : /^\s*->\s*([a-z0-9]+)\s*$/i,
-    option        : /^\s*\?\s*(.+)\s*->\s*([a-z0-9]+)\s*(&?)\s*$/i,
+    label         : /^\s*::\s*([a-z0-9_-]+)\s*$/i,
+    goto          : /^\s*->\s*([a-z0-9_-]+)\s*$/i,
+    option        : /^\s*\?\s*(.+)\s*->\s*([a-z0-9_-]+)\s*(&?)\s*$/i,
     longcode      : /^\s*```\s*$/,
     code          : /^\s*`(.*)`\s*$/,
     speech        : /^\s*([^:]*)\s*:\s*(.*)\s*$/
